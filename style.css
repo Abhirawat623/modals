@@ -1,0 +1,21 @@
+.container{
+width:400px;
+height:100px;
+position: absolute;
+display: flex;
+align-items: center;
+justify-content: center;
+/* flex-direction: column; */
+padding: 5rem;
+
+}
+.modals-container{
+    overflow:cover ;
+    border: 1px solid black;
+ 
+}
+
+.hide{
+    display: none;
+}
+
