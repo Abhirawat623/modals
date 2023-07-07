@@ -12,10 +12,47 @@ padding: 5rem;
 .modals-container{
     overflow:cover ;
     border: 1px solid black;
- 
+    height: 400px; 
+    width: 100%;
+   margin-top: 30rem;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+
 }
 
 .hide{
     display: none;
 }
 
+.dark{
+    background: black;
+    color: white;
+    border: 1px solid white;
+    border-radius:5px
+}
+
+.btn-all{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#btn{
+    margin-bottom: 2rem;
+}
+
+#btn-close{
+    border: 1px solid red;
+    background: red;
+    color: white;
+    height: 20px;
+    width: 5rem;
+    position: fixed;
+    top:10.7rem;
+    left: 25.2rem;
+
+
+}
